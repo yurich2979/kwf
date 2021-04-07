@@ -1,0 +1,61 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .content {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  .menu-icon {
+    display: block !important;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  /* スマートフォン表示のトップ左寄せ
+  .top-wrapper {
+  text-align: left;
+  } */
+
+  .top-wrapper h1 {
+  font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+
+  .top-wrapper .btn {
+    width: 100%;
+  }
+
+  .youtube {
+    margin-bottom: 10px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .message {
+    width: 100%;
+  }
+
+}
